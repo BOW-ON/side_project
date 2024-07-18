@@ -143,7 +143,7 @@ try {
                                 <h2>title</h2>
                             </label>
                             <div class="li_card_name2">
-                                <input type="text" name="title" id="title" value="<?php echo $item["title"]; ?>">
+                                <input class="update_input" type="text" name="title" id="title" value="<?php echo $item["title"]; ?>">
                             </div>
                         </div>   
                         <div class="li_card_item">
@@ -151,7 +151,7 @@ try {
                                 <h2>content</h2>
                             </label>
                             <div class="li_card_name2">             
-                                <textarea name="content" id="content" cols="auto" rows="8"><?php echo $item["content"]; ?></textarea>
+                                <textarea class="textarea" name="content" id="content" cols="auto" rows="8"><?php echo $item["content"]; ?></textarea>
                             </div>
                         </div> 
                     </div>

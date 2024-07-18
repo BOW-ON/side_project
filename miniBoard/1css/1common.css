@@ -287,3 +287,17 @@ textarea {
     background-color: rgb(191, 191, 87);
     border-radius: 25px;
 }
+
+/* input, textarea 글자색 변경 */
+.insert_input {
+    color: white;
+}
+.insert_textarea {
+    color: white;
+}
+.update_input {
+    color: white;
+}
+.update_textarea {
+    color: white;
+}

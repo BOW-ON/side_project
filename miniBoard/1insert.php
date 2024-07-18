@@ -95,13 +95,13 @@ if (REQUEST_METHOD === "POST" ) {
                         <div class="li_card_item">
                             <label for="title" class="li_card_name"><h2>title</h2></label>
                             <div class="li_card_name2">
-                                <input type="text" name="title" id="title">
+                                <input class="insert_input" type="text" name="title" id="title">
                             </div>
                         </div>   
                         <div class="li_card_item">
                             <label for="content" class="li_card_name"><h2>content</h2></label>
                             <div class="li_card_name2">
-                                <textarea name="content" id="content" cols="auto" rows="8"></textarea>                    
+                                <textarea class="insert_textarea" name="content" id="content" cols="auto" rows="8"></textarea>                    
                             </div>
                         </div>   
                     </div>

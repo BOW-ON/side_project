@@ -151,7 +151,7 @@ try {
                                 <h2>content</h2>
                             </label>
                             <div class="li_card_name2">             
-                                <textarea class="textarea" name="content" id="content" cols="auto" rows="8"><?php echo $item["content"]; ?></textarea>
+                                <textarea class="update_textarea" name="content" id="content" cols="auto" rows="8"><?php echo $item["content"]; ?></textarea>
                             </div>
                         </div> 
                     </div>
